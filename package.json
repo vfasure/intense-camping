@@ -1,0 +1,13 @@
+{
+  "name": "intense-camping",
+  "version": "0.0.1",
+  "description": "heroku sample project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies" : {
+  	"express" : "4.14.0",
+    "jade": "1.11.0"
+  }
+}
