@@ -7,7 +7,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/', function(req, res){
-  res.render('index', { season: 'winter'});
+  res.render('index', { season: 'summer'});
 });
 
 app.listen(process.env.PORT || 3000, function() {
