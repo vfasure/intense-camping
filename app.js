@@ -6,6 +6,8 @@ if (!process.env.DATABASE_URL) {
 var express = require('express')
 var app = express();
 var bodyParser = require('body-parser')
+var trips = require('./data/trips');
+var _ = require('underscore');
 
 var Knex = require('knex');
 var URL = require('url');
@@ -22,8 +24,6 @@ var knex = Knex({
     password: pg_server.auth.split(':')[1]
   }
 });
-
-
 
 app.use(express.static('public'));
 app.use(bodyParser.json()); // to support JSON-encoded bodies
