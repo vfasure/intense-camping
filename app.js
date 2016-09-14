@@ -33,15 +33,22 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/', function(req, res){
-  res.render('index', { season: 'winter'});
+  res.render('index', { season: 'summer'});
 });
 
-app.post('/new', function(req, res){
-  var { name, email } = req.body;
+app.get('/trips', function(req, res) {
+  res.render('trips', trips);
+});
 
+app.get('/reservations/new', function(req, res) {
+  res.render('reservation', _.extend(trips, req.query));
+});
+
+app.post('/reservations/new', function(req, res){
   knex('tableName').insert({
-    name,
-    email
+    req.body.name,
+    req.body.email,
+    req.body.trip_id
   }).then(function() {
     res.sendStatus(201);
   })
