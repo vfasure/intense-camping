@@ -4,7 +4,8 @@
   "description": "heroku sample project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "lint:": "eslint ."
   },
   "engines": {
     "node": "6.5"
@@ -15,6 +16,7 @@
     "jade": "1.11.0",
     "knex": "^0.11.10",
     "pg": "^6.1.0",
-    "underscore": "1.8.3"
+    "underscore": "1.8.3",
+    "eslint": "^2.13.1"
   }
 }
