@@ -4,7 +4,9 @@
   "description": "heroku sample project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "migrate": "./node_modules/.bin/knex migrate:latest",
+    "rollback": "./node_modules/.bin/knex migrate:rollback"
   },
   "engines": {
     "node": "6.5"
