@@ -9,7 +9,7 @@
     "rollback": "./node_modules/.bin/knex migrate:rollback"
   },
   "engines": {
-    "node": "6.5"
+    "node": "6.9.5"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
