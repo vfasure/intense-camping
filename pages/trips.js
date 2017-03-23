@@ -6,13 +6,13 @@ export default class Trips extends React.Component {
 
   render() {
     const trips = [{
-      slug: '',
+      slug: 'mount-rainier-ice-caving-2017',
       title: 'Mount Rainier Ice Caving',
       prettyDate: 'November 2017',
       thumbnailUrl: '/images/14932421947_a18281e563_b.jpg',
       canRegister: true
     },{
-      slug: '',
+      slug: 'yosemite-hut-traverse-2017',
       title: 'Yosemite Hut Traverse',
       thumbnailUrl: '/images/glacier-point-road-xc-ski-and-half-dome-1-crop-x600.jpg',
       prettyDate: 'December 2017',
@@ -47,7 +47,7 @@ export default class Trips extends React.Component {
         <h1>Intense Trips</h1>
         
         {trips.map( trip => (
-          <div>
+          <div key={`trip-${trip.slug}`}>
             <h2>{trip.title}</h2>
             <p>{trip.prettyDate} <a href='#' onClick={this.requestReservation}>Reserve</a></p>
             <img src={trip.thumbnailUrl} alt=''/>
