@@ -1,12 +1,10 @@
 {
   "name": "intense-camping",
   "scripts": {
+    
   },
   "env": {
-    "DATABASE_URL": {
-      "description": "A postgres url specifying the host, port, credentials, etc.",
-      "required": true
-    }
+
   },
   "formation": {
     "web": {
