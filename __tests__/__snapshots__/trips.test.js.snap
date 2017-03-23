@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="root"
+  data-jsx={270732749}
+>
+  <h1
+    data-jsx={270732749}
+  >
+    Intense Trips
+  </h1>
+  <div
+    data-jsx={270732749}
+  >
+    <h2
+      data-jsx={270732749}
+    >
+      Mount Rainier Ice Caving
+    </h2>
+    <p
+      data-jsx={270732749}
+    >
+      November 2017
+       
+      <a
+        data-jsx={270732749}
+        href="#"
+        onClick={[Function]}
+      >
+        Reserve
+      </a>
+    </p>
+    <img
+      alt=""
+      data-jsx={270732749}
+      src="/images/14932421947_a18281e563_b.jpg"
+    />
+  </div>
+  <div
+    data-jsx={270732749}
+  >
+    <h2
+      data-jsx={270732749}
+    >
+      Yosemite Hut Traverse
+    </h2>
+    <p
+      data-jsx={270732749}
+    >
+      December 2017
+       
+      <a
+        data-jsx={270732749}
+        href="#"
+        onClick={[Function]}
+      >
+        Reserve
+      </a>
+    </p>
+    <img
+      alt=""
+      data-jsx={270732749}
+      src="/images/glacier-point-road-xc-ski-and-half-dome-1-crop-x600.jpg"
+    />
+  </div>
+</div>
+`;

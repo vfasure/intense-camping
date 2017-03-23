@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="root"
+  data-jsx={879608397}
+>
+  <h1
+    data-jsx={879608397}
+  >
+    Intense Camping
+  </h1>
+  <h2
+    data-jsx={879608397}
+  >
+    Book Your CAMPING Trip
+  </h2>
+  <p
+    data-jsx={879608397}
+  >
+    <a
+      data-jsx={879608397}
+      href="/trips"
+      onClick={[Function]}
+    >
+      Sign-up Now
+    </a>
+  </p>
+  <img
+    alt="camping"
+    data-jsx={879608397}
+    src="/images/camping-camping.jpg"
+  />
+</div>
+`;
