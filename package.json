@@ -7,7 +7,7 @@
     "build": "next build",
     "heroku-postbuild": "heroku-nextjs-build",
     "start": "node server.js -p $PORT",
-    "test": "BABEL_ENV=test jest"
+    "test": "jest"
   },
   "dependencies": {
     "@mars/heroku-nextjs-build": "^2.0.0",
@@ -28,13 +28,9 @@
     "react-test-renderer": "^15.4.2"
   },
   "babel": {
-    "env": {
-      "test": {
-        "presets": [
-          "es2015",
-          "next/babel"
-        ]
-      }
-    }
+    "presets": [
+      "es2015",
+      "next/babel"
+    ]
   }
 }
