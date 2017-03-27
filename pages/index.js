@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 export default () => {
-  const intensity = 'camping'
+  const intensity = 'Happy Monday Live Demo'
 
   return (
     <div className="root">
