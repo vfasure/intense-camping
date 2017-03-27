@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 export default () => {
-  const intensity = 'intense-camping'
+  const intensity = 'camping'
 
   return (
     <div className="root">
