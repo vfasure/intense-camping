@@ -12,7 +12,7 @@
     }
   },
   "addons": [
-    "heroku-postgresql:premium-0"
+
   ],
   "buildpacks": [
     {
