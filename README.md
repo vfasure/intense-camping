@@ -1,6 +1,6 @@
 # Intense Camping
 
-![](http://d.pr/i/4YvcIE)
+![](http://d.pr/i/BYO244+)
 
 Intense Camping is a demo application that can be used to demo simple product features on the Heroku platform. 
 
