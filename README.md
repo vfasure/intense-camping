@@ -1,6 +1,8 @@
 # Intense Camping
 
-![](http://www.thecoolector.com/wp-content/uploads/2015/11/lonebuffalophoto_Nick_Lake_WA_Mt_Baker_National_park_1024x1024.jpg)
+![](http://d.pr/i/4YvcIE)
+
+Intense Camping is a demo application that can be used to demo simple product features on the Heroku platform. 
 
 ## Development
 
