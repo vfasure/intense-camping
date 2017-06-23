@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 export default () => {
-  const intensity = 'relaxi'
+  const intensity = 'chill'
 
   return (
     <div className="root">
