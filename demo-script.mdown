@@ -1,6 +1,26 @@
-# Intense Camping Demo Walkthrough
+# Intense Camping demo for CI/CD walkthrough
 
-![](http://d.pr/i/BYO244+)
+![](http://d.pr/i/v4wMgs+)
 
 ## Setup
 
+1. Set intensity to 'camping' in /intense-camping/tree/master/pages/index.js 
+2. Promote production and verify that staging and prodution are identical
+
+## Demo
+
+Before you begin, talk to the audience about what intense camping is. "Intense camping is a demo app I built to show you how Heroku CI/CD works to help build better apps on Heroku. Let's look at the app really fast, it's a pretty straight forward app used to book fake camping trips around the world." 
+
+### stage 1: set the intensity, create a review app and fail CI
+1. Set intensity on https://github.com/heroku/intense-camping/blob/master/pages/index.js to `intense`
+2. Open a new Pull Request and title it, "intensity to 11" 
+3. Create a new branch 
+4. Create the pull request
+5. Point out the integration with Heroku and Github on the PR page in Github, notice that there is a label for Heroku where you see the build starting to happen
+6. If using Heroku CI, you should see that all checks have failed CI - this is OK, your app will still build. Note that you'll go check out why CI failed in your Heroku pipeline
+7. Navigate to the intense-camping pipeline on dashboard.heroku.com
+8. On the 'Tests' tab, point out the failed test
+9. Back on the 'Pipeline' tab, open the Review app that you just made when you opened the 'intesnity to 11' PR
+10. Woah! That's a scary bear, no wonder you failed CI... 
+
+### stage 2: 
