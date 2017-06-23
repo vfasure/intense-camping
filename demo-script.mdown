@@ -4,6 +4,8 @@
 
 ## Setup
 
+You will need access to the intense-camping Heroku team, or you'll need to set up a new pipeline connected to a fork of this repo. 
+
 1. Set intensity to 'camping' in /intense-camping/tree/master/pages/index.js 
 2. Promote production and verify that staging and prodution are identical
 
@@ -23,4 +25,20 @@ Before you begin, talk to the audience about what intense camping is. "Intense c
 9. Back on the 'Pipeline' tab, open the Review app that you just made when you opened the 'intesnity to 11' PR
 10. Woah! That's a scary bear, no wonder you failed CI... 
 
-### stage 2: 
+### stage 2: Make a change on your PR and update the intensity
+1. Go back to github and navigate to the PR, 'intensity to 11' (point out the red X which signals that the PR failed CI)
+2. Navigate to the files changed in PR and edit the same file and set the intensity to `chill`
+3. Title your changes, 'cooling down the intensity' and commit them to the same branch 
+4. On your pipeline in dashboard you'll see another build kick off of the same review app, notice that another CI test is also running
+5. Once the CI passes and the app is built, open the review app to see the change 
+6. Now that's a much more 'bearable' camping situation
+
+## stage 3: merge your PR and promote to production
+1. Back on your PR in github, 'intensity to 11,' click the 'merge pull request' button. remember to click 'confirm merge'
+2. Navigate back to your intense-camping pipeline, to show that staging is now building. Point out that another CI test was triggered when you merged the PR to master. 
+3. Once the staging app is finished building, point out that the 'SHA' is now different between staging and production. Open the staging app and the production app to illustrate the difference - you should see one app has the chill bear and one has no bear at all. 
+4. Go back to your pipeline and click 'promote to production' on the staging app. 
+6. On the promote modal, expand 'show commits' and talk through what's changed, "we've made changes to the intensity, and now we're happy with what we see in staging, so we're giong to promote this version of the application through to production." 
+7. Click 'promote' and make a HUGE deal about how instantaneous the promotion is. 
+8. Navigate back to your intense camping production application and refresh the page. 
+9. All your customers will now see a chill camping scene where the campers are being seranaded by Cody the bear 
