@@ -13,7 +13,7 @@ exports[`renders correctly 1`] = `
   <h2
     data-jsx={879608397}
   >
-    Book Your CAMPING Trip
+    Book Your CHILL Trip
   </h2>
   <p
     data-jsx={879608397}
@@ -27,9 +27,9 @@ exports[`renders correctly 1`] = `
     </a>
   </p>
   <img
-    alt="camping"
+    alt="chill"
     data-jsx={879608397}
-    src="/images/camping-camping.jpg"
+    src="/images/chill-camping.jpg"
   />
 </div>
 `;
