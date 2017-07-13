@@ -17,7 +17,7 @@
     "react-dom": "^15.5.4"
   },
   "engines": {
-    "node": "6.9.x"
+    "node": "6.11.1"
   },
   "devDependencies": {
     "babel-jest": "^20.0.1",
